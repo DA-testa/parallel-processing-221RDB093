@@ -46,7 +46,7 @@ def main():
 
     # TODO: create the function
     result = parallel_processing(n,m,data)
-    inputList = list(map(int, input().spli()))
+    inputList = list(map(int, input().split()))
     # TODO: print out the results, each pair in it's own line
 
     for j in range (0,len(result),2):
