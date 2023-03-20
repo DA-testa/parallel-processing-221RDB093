@@ -1,6 +1,6 @@
 # python3
 
-def parallel_processing(n, m, data):
+def parallel_processing(n, m, Data):
     output = []
     list1 = []
     list2 = []
@@ -18,8 +18,8 @@ def parallel_processing(n, m, data):
         x = x+ 1
         while True :
             list2[x] = list2[x] + 1 
-            data[i] = data[i] - 1
-            if data[i] == 0:
+            Data[i] = Data[i] - 1
+            if Data[i] == 0:
                 break
         if x == len(list1):
             x = 0
@@ -39,7 +39,7 @@ def main():
     Data = list(map(int, input().split()))
     # second line - data 
     # data - contains m integers t(i) - the times in seconds it takes any thread to process i-th job
-    data = []
+    #data = []
 
     # TODO: create the function
     result = parallel_processing(n,m,data)
