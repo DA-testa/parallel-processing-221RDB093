@@ -42,7 +42,7 @@ def main():
     #data = []
 
     # TODO: create the function
-    result = parallel_processing(n,m,data)
+    result = parallel_processing(n,m,Data)
     
     # TODO: print out the results, each pair in it's own line
 
